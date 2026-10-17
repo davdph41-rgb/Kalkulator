@@ -1,6 +1,6 @@
 // Service worker sederhana: cache-first untuk file inti agar bisa dipakai offline.
 // Ubah CACHE_VERSION setiap kali kamu mengubah file, supaya cache lama diganti.
-const CACHE_VERSION = "kalkulator-pro-v2";
+const CACHE_VERSION = "kalkulator-pro-v3";
 const APP_SHELL = [
   "./",
   "./index.html",
